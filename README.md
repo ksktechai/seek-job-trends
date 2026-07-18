@@ -1,6 +1,10 @@
 # seek-job-trends
 
-Job-market trend radar for [OpenClaw](https://openclaw.ai). No auto-apply — signal only.
+Job-market trend radar for OpenClaw. No auto-apply — signal only.
+
+> 📖 Full build write-up:
+> 
+> [A Job-Market Radar on a Raspberry Pi: OpenClaw, Gmail, and a Local LLM](https://taihoro.substack.com/p/a-job-market-radar-on-a-raspberry)
 
 Watches Seek (NZ/AU) job listings via official email alerts, scores each
 listing against a profile with a local LLM, and delivers a daily trend digest
