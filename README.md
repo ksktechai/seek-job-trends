@@ -14,6 +14,8 @@ contract rates are doing.
 **Pipeline:** Seek email alerts → Gmail (IMAP) → SQLite → any
 OpenAI-compatible LLM for scoring → daily Telegram digest via OpenClaw.
 
+![seek-job-trends-architecture.gif](docs/seek-job-trends-architecture.gif)
+
 ```
 ingest.py   parse unseen Seek alert emails → upsert into seek.db
 score.py    score/tag unscored rows via LLM (profile.md as context)
